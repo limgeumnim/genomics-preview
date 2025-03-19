@@ -5,6 +5,9 @@ export default function HomePage() {
         Hello, Next.js Static Export!
       </h1>
       <p className="text-xl font-normal text-blue-400">TailwindCSS 테스트중</p>
+      <p className="text-xl font-normal text-blue-400">
+        npm run deploy 테스트중
+      </p>
     </main>
   );
 }

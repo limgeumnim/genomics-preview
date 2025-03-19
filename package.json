@@ -17,6 +17,6 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
-    "deploy": "touch out/.nojekyll && npx gh-pages -d out -b pages -t true"
+    "deploy": "touch out/.nojekyll && npx gh-pages -d out -b pages --dotfiles"
   }
 }
